@@ -3,7 +3,7 @@
 <li>check google chart library <a href="https://developers.google.com/chart/" target="_blank" title="google chart link">link</a></li>
 <li>import GChart</li>
 <li>use in view
-<code><?php $this->widget('extensions.gchart.GChart',
+<pre><?php $this->widget('extensions.gchart.GChart',
 		                    array(
 							'chartLibrary' => library URL,
 							'chartPackages' => packages array,
@@ -15,5 +15,5 @@
 								'options' => chart options
 								),
 							),
-							)); ?></code></li>
+							)); ?></pre></li>
 </ol>
